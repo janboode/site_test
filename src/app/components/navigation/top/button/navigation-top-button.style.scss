@@ -1,0 +1,36 @@
+.navTopButton {
+    display: block;
+    padding: 30px;
+    color: white;
+    text-decoration:none;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0);
+    transition: all 250ms ease;
+
+    &:hover {
+        background-color: rgba(255,255,255,0.1);
+    }
+}
+ .search {
+    padding: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.signUp {
+    padding: 30px;
+    font-weight: 900;
+    color: #CBCFA6;
+    // color: #C46C28;
+    background-color: rgba(255,255,255,0.1); 
+    border-radius: 10px;
+
+    transition: all 250ms ease;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: #C46C28;
+        color: white;
+    }
+}

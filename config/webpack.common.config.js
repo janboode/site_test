@@ -56,7 +56,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Basic React Boilerplate',
+            title: 'B R Y T E, version fall 2019',
             template: './src/index.html',
             inject: true,
             minify: {

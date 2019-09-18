@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import * as THREE from 'three'
 import { TweenMax } from 'gsap'
 import GLTFLoader from 'three-gltf-loader'
-import gltfPath from '../../../../assets/gltf/me_hero.gltf'
+import gltfPath from '../../../../../assets/gltf/me_hero.gltf'
 
 class Me extends Component {
     constructor(props) {
@@ -81,6 +81,7 @@ class Me extends Component {
         //     this.head.position.y,
         //     this.head.position.z
         // ))
+        camera.lookAt(new THREE.Vector3(50,0,0))
     }
 
     blink = () => {
